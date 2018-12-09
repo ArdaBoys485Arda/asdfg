@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Bot sürümü: v1.0.0 Yapımcı: Arda İZ \n\n Son Yapılan Güncellemeler: \n\n Yeni Komut Eklendi tbt!reklamlar \n\n Yeni Komut Eklendi tbt!özelgünler\n\n https://tr-discordbotlar.cf/ \n\n:copyright: 2018 TBT BOT');
+    .setDescription('Bot sürümü: v1.0.0 Yapımcı: Arda İZ \n\n Son Yapılan Güncellemeler: \n\n Bot Hostlandı\n\n https://tr-discordbotlar.cf/ \n\n:copyright: 2018 TBT BOT');
     return message.author.sendEmbed(pingozel)
 };
 
